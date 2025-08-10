@@ -8,6 +8,10 @@ body {
   background-color: var(--co-white);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1400px;
   padding: 0 10px;
@@ -55,7 +59,12 @@ a {
 
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 p,
-figure {
+figure,
+blockquote {
   margin: 0;
 }
