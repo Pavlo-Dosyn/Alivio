@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" href="assets/Favicon.png" type="image/png" />
     <title>Alivio</title>
@@ -43,9 +44,19 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section
+        class="hero"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="800"
+      >
         <div class="container">
-          <div class="hero__contant">
+          <div
+            class="hero__contant"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="800"
+          >
             <h1 class="hero__title">Be aware, Manage well.</h1>
             <p class="hero__desc">
               Everyone experiences stress in different ways. Let Alivio guide
@@ -58,8 +69,20 @@
       </section>
       <section class="about" id="about-id">
         <div class="container">
-          <h3 class="about__subtitle">How it works</h3>
-          <div class="about__content">
+          <h3
+            class="about__subtitle"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
+            How it works
+          </h3>
+          <div
+            class="about__content"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
             <h2 class="about__title">
               Understand & Release the stress in 3 steps
             </h2>
@@ -71,7 +94,12 @@
             </p>
           </div>
 
-          <div class="about__cards">
+          <div
+            class="about__cards"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="800"
+          >
             <figure class="card">
               <h2 class="card__title">Personalize</h2>
               <p class="card__desc">
@@ -114,10 +142,21 @@
           </div>
         </div>
       </section>
-      <section class="solutions" id="solutions-id">
+      <section
+        class="solutions"
+        id="solutions-id"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="800"
+      >
         <div class="container">
           <div class="solutions__wrapper">
-            <div class="solutions__content">
+            <div
+              class="solutions__content"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="800"
+            >
               <h2 class="solutions__title">
                 Let's hear about Kayla's success story
               </h2>
@@ -126,7 +165,12 @@
               </p>
               <button class="btn">Let’s get started</button>
             </div>
-            <div class="solutions__content-video">
+            <div
+              class="solutions__content-video"
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="800"
+            >
               <img
                 src="assets/Video (1).png"
                 alt="Video"
@@ -139,7 +183,12 @@
       <section class="community" id="community-id">
         <div class="container">
           <div class="community__wrapper">
-            <div class="community__preview">
+            <div
+              class="community__preview"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="800"
+            >
               <img
                 src="assets/Group 56.png"
                 alt="community preview"
@@ -168,7 +217,12 @@
               </figure>
             </div>
 
-            <div class="community__content">
+            <div
+              class="community__content"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="800"
+            >
               <h5 class="community__info">Our product</h5>
               <h4 class="community__title">
                 You tell us your stress, We make your diary
@@ -184,9 +238,20 @@
         </div>
       </section>
     </main>
-    <footer class="pricing" id="pricing-id">
+    <footer
+      class="pricing"
+      id="pricing-id"
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-duration="800"
+    >
       <div class="container">
-        <div class="pricing__content">
+        <div
+          class="pricing__content"
+          data-aos="fade-left"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+        >
           <h2 class="pricing__title">Alivio</h2>
           <nav class="pricing__nav">
             <ul class="pricing__nav-list">
@@ -207,5 +272,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
